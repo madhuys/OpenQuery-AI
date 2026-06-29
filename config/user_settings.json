@@ -1,0 +1,120 @@
+{
+  "search": {
+    "search_type": "search",
+    "default_query": "latest AI developments"
+  },
+  "geographic": {
+    "country": "",
+    "language": "en",
+    "location": ""
+  },
+  "results": {
+    "num_results": 20,
+    "enable_videos": false,
+    "enable_scholar": false,
+    "enable_document_search": true
+  },
+  "time_filter": {
+    "time_filter": null,
+    "custom_start_date": null,
+    "custom_end_date": null,
+    "safe_search": "off",
+    "enable_autocorrect": true
+  },
+  "analysis": {
+    "max_workers": 20,
+    "max_download_workers": 10,
+    "router_max_workers": 1,
+    "html_timeout": 3,
+    "pdf_timeout": 4,
+    "url_timeout": 3,
+    "api_health_timeout": 5,
+    "api_stream_timeout": 300,
+    "thread_join_timeout": 180,
+    "database_busy_timeout": 30,
+    "max_retry_attempts": 0,
+    "retry_delay": 1,
+    "rate_limit_per_domain": 4,
+    "rate_limit_delay": 0.0,
+    "html_quality_threshold": 40,
+    "pdf_quality_threshold": 40,
+    "pdf_max_size_mb": 60,
+    "pdf_max_pages": 2000,
+    "default_pdf_freshness_days": 30,
+    "default_cache_freshness_days": 30
+  },
+  "cache": {
+    "enable_serper_cache": true,
+    "enable_html_cache": true,
+    "enable_fuzzy_cache_matching": true,
+    "fuzzy_match_threshold": 98,
+    "serper_news_freshness_hours": 6,
+    "serper_search_freshness_hours": 24,
+    "serper_videos_freshness_hours": 48,
+    "serper_scholar_freshness_hours": 168,
+    "html_news_staleness_days": 7,
+    "html_blog_staleness_days": 7,
+    "html_product_staleness_days": 30,
+    "html_docs_staleness_days": 30,
+    "html_evergreen_staleness_days": 90,
+    "html_unknown_staleness_days": 30,
+    "revalidation_threshold_days": 15,
+    "error_cache_days": 15,
+    "filtered_cache_days": 15,
+    "max_cache_size_gb": 100
+  },
+  "pdf": {
+    "spacy_enabled": false,
+    "spacy_require_gpu": true,
+    "spacy_enable_ner": true,
+    "spacy_enable_chunks": false,
+    "pdf_max_pages": null,
+    "pdf_enable_tables": true,
+    "pdf_enable_lists": true,
+    "pdf_transliterate_unicode": false
+  },
+  "pdf_scoring": {
+    "metadata_title_min_chars": 4,
+    "metadata_author_min_chars": 3,
+    "date_recency_days": 730,
+    "content_optimal_min": 600,
+    "content_optimal_max": 10000,
+    "content_long_min": 10001,
+    "content_long_max": 30000,
+    "content_short_min": 300,
+    "content_short_max": 599,
+    "structure_min_headings_high": 3,
+    "structure_min_headings_low": 1,
+    "wpp_optimal_min": 200,
+    "wpp_optimal_max": 500,
+    "wpp_acceptable_min": 100,
+    "wpp_acceptable_max": 800,
+    "entities_min_count": 2,
+    "threshold_legit": 70,
+    "threshold_maybe": 40
+  },
+  "background": {
+    "enabled": true,
+    "fast_lane_timeout": 6,
+    "download_timeout": 60,
+    "processing_timeout": 60,
+    "worker_enabled": true,
+    "worker_sleep_interval": 1,
+    "max_retry_attempts": 3,
+    "queue_type": "sqlite",
+    "queue_path": "db/background_queue.db",
+    "pdf_freshness_days": 30,
+    "cleanup_completed_days": 7
+  },
+  "embedding": {
+    "enabled": true,
+    "azure_endpoint": "",
+    "api_key": "",
+    "model_name": "text-embedding-3-small",
+    "deployment_name": "text-embedding-3-small",
+    "api_version": "2024-12-01-preview",
+    "max_chunk_batch_size": 500,
+    "similarity_threshold": 0.5,
+    "max_search_results": 20
+  }
+}

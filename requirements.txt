@@ -1,0 +1,50 @@
+fastapi==0.109.0
+uvicorn==0.27.0
+streamlit==1.31.0
+requests==2.31.0
+httpx==0.27.0
+aiohttp==3.9.1
+pycurl==7.45.3
+curl-cffi==0.5.10
+pydantic==2.5.3
+python-dotenv==1.0.0
+beautifulsoup4==4.12.3
+lxml==5.1.0
+html5lib==1.1
+readability-lxml==0.8.1
+newspaper3k==0.2.8
+trafilatura==1.8.0
+markdownify==0.11.6
+psutil==5.9.8
+charset-normalizer==3.3.2
+tqdm==4.66.1
+
+# NLP Libraries
+extruct==0.16.0
+tldextract==5.1.1
+textstat==0.7.3
+ftfy==6.1.3
+scikit-learn==1.3.2
+spacy==3.7.4
+unidecode==1.3.8
+rapidfuzz==3.6.1
+
+# PDF extraction
+PyMuPDF==1.24.1
+pypdfium2==4.26.0
+pdfplumber==0.11.0
+
+# Date parsing & caching
+python-dateutil==2.8.2
+pandas==2.1.4
+feedparser==6.0.10
+
+# Browser automation for slow PDF downloads
+playwright==1.40.0
+pyspellchecker==0.6.1
+
+# Embeddings and semantic search
+openai>=1.0.0
+numpy>=1.24.0
+duckduckgo_search>=6.0.0
+ddgs>=9.0.0

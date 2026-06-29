@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Database files
+db/serper_cache.db
+db/serper_cache.db-shm
+db/serper_cache.db-wal
+*.db
+*.db-shm
+*.db-wal
+
+# Logs
+logs/*.log
+*.log
+
+# Environment variables
+.env
+.env.local
+.env.production
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Old/deprecated files
+old/
+
+# Test outputs
+test_scripts/
+*.json.bak
+
+# Large output files
+outputs/
+downloaded_pdfs/
